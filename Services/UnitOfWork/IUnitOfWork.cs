@@ -1,6 +1,6 @@
-﻿using Base.Services.CustomerServices;
+﻿using Customer_Information.Services.CustomerServices;
 
-namespace Base.Services.UnitOfWork
+namespace Customer_Information.Services.UnitOfWork
 {
     public interface IUnitOfWork: IDisposable
     {

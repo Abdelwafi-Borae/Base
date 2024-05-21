@@ -1,8 +1,8 @@
-﻿using Base.Models;
+﻿using Customer_Information.Models;
 using System.Globalization;
 using System.Xml.Linq;
 
-namespace Base.Responces
+namespace Customer_Information.Responces
 {
     public class CustomerResponse
     {

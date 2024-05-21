@@ -1,4 +1,4 @@
-﻿namespace Base.Contracts
+﻿namespace Customer_Information.Contracts
 {
     public class ApiRoute
     {

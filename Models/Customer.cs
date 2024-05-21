@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Base.Models
+namespace Customer_Information.Models
 {
     public class Customer
     {

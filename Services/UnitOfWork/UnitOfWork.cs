@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Base.Data;
-using Base.Services.CustomerServices;
+using Customer_Information.Data;
+using Customer_Information.Services.CustomerServices;
 
-namespace Base.Services.UnitOfWork
+namespace Customer_Information.Services.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {   protected readonly IMapper mapper;

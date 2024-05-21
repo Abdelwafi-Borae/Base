@@ -1,17 +1,17 @@
-﻿using Base.Models;
+﻿using Customer_Information.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Base.Data;
+namespace Customer_Information.Data;
 
 public class ApplicationDbContext : DbContext
 {
-    public ApplicationDbContext(DbContextOptions options) : base(options)
+    public ApplicationDbContext(DbContextOptions options) : Customer_Information(options)
     {
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        base.OnModelCreating(modelBuilder);
+        Customer_Information.OnModelCreating(modelBuilder);
 
         modelBuilder.Entity<Customer>()
             .HasMany<Address>(c => c.address)

@@ -1,4 +1,4 @@
-﻿namespace Base.Models
+﻿namespace Customer_Information.Models
 {
     public class Address
     {

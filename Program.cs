@@ -1,5 +1,5 @@
-using Base.Data;
-using Base.Services.UnitOfWork;
+using Customer_Information.Data;
+using Customer_Information.Services.UnitOfWork;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 
