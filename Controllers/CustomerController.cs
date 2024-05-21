@@ -11,7 +11,7 @@ namespace Customer_Information.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-public class CustomerController : ControllerCustomer_Information
+public class CustomerController : ControllerBase
 {
     private readonly IUnitOfWork _unitOfWork;
 
